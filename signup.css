@@ -1,0 +1,65 @@
+h1{
+    text-align:center;
+    background-color: azure;
+margin: auto;
+height: auto;
+width: 20rem;
+}
+label{
+    font-size: medium;
+}
+button{
+    font-size: large;
+    text-align: center;
+    border: none;
+    background-color: rgb(18, 173, 44);
+    color: aliceblue;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgba(146, 250, 143, 0.979);
+    color: black;
+}
+button:focus{
+    background-color: rgb(165, 73, 252);
+       border-radius: 8px;
+}
+button:hover:after{
+    background-color: rgb(250, 36, 36);
+    cursor:default;
+    transition-duration: 1000ms;
+}
+form{
+      
+    height: 29rem;
+    width: 20rem;
+    padding: 2rem;    
+    background-color: azure;
+    border-radius: 5px;
+}
+label{
+color: rgb(17, 17, 17);
+font-weight: 500;
+font-size: larger;}
+body{
+    background-color: rgb(84, 255, 169);
+}
+input{
+    border-radius: 14px;
+    height: 2rem;
+    width:17rem;
+    }
+    #male,#female{
+        size: 100px;
+    }
+    #male,#female{
+      width: 18px;
+      height: 18px;
+        
+    }
+    body{
+        padding-left: 30rem;
+    }
